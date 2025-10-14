@@ -44,11 +44,11 @@ nav {
   gap: 0.2em;
 }
 
-nav .menu:hover > .submenu {
+nav > div:hover > div {
   display: flex;
 }
 
-.submenu {
+nav > div > div {
   display: none;
   position: absolute;
   flex-direction: column;
