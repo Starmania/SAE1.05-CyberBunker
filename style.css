@@ -1,14 +1,16 @@
 body {
-  background-image: url("./Image/Pc-fond.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: 70%;
   margin: 0;
   padding: 0;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
     "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.blured {
+  filter: blur(1);
+  position: absolute;
+  z-index: -1;
+  height: fit-content;
+}
 main {
   article {
     width: calc(100% * 2 / 3);
@@ -37,6 +39,7 @@ header {
 
 nav {
   display: flex;
+
   justify-content: center;
   gap: 0.2em;
 }
