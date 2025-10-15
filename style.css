@@ -15,24 +15,7 @@ body {
   --var-navbar: #0d2e11;
 }
 
-main {
-  article {
-    width: calc(100% * 2 / 3);
-    margin: 5em auto;
-    padding: 2em;
-    background-color: #122915;
-    color: #f9f9f9;
-    border-radius: 0.5em;
-    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
-    text-align: justify;
-    scroll-margin-top: 200px;
-  }
-  a:link,
-  a:visited {
-    color: #38488f;
-    text-decoration: none;
-  }
-}
+
 
 header {
   background-color: var(--var-navbar);
@@ -74,6 +57,26 @@ nav a {
 
 nav a:hover {
   background-color: #2a633e;
+}
+
+
+main {
+  article {
+    width: calc(100% * 2 / 3);
+    margin: 5em auto;
+    padding: 2em;
+    background-color: #122915;
+    color: #f9f9f9;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
+    text-align: justify;
+    scroll-margin-top: 200px;
+  }
+  a:link,
+  a:visited {
+    color: #38488f;
+    text-decoration: none;
+  }
 }
 
 /* article .articleAnchor {
