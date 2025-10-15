@@ -25,7 +25,7 @@ header {
   /* visibility: hidden; */
 }
 
-.logo {
+#logo_nav {
   position: absolute;
   height: 90%;
   margin: 5px;
