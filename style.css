@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-position-x: 70%;
   backdrop-filter: blur(5px);
+  color: #f9f9f9;
   margin: 0;
   padding: 0;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
@@ -68,7 +69,6 @@ main {
     margin: 5em auto;
     padding: 2em;
     background-color: #122915;
-    color: #f9f9f9;
     border-radius: 0.5em;
     box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
     text-align: justify;
@@ -86,12 +86,14 @@ main {
   position: relative;
   top: 0;
 } */
+
 .image_droite img {
   max-width: 40%;
   border-radius: 0.5em;
   box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.1);
   margin: auto auto auto 20px;
 }
+
 .image_droite {
   display: flex;
 }
@@ -100,9 +102,25 @@ main {
   display: flex;
   justify-content: space-evenly;
 }
+
 #article2 div img {
   max-width: 20%;
   border-radius: 20px;
   box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.1);
   margin: 10px;
+}
+
+footer {
+  background-color: var(--var-navbar);
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+footer > * {
+  margin: auto 0;
+}
+
+footer img {
+  height: 150px;
 }
