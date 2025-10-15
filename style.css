@@ -93,7 +93,7 @@ nav a:hover {
 
 #article2 div {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 #article2 div img {
   max-width: 20%;
