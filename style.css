@@ -15,11 +15,8 @@ body {
   --var-navbar: #0d2e11;
 }
 
-
-
 header {
   background-color: var(--var-navbar);
-  padding: 2em 0;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -27,9 +24,15 @@ header {
   /* visibility: hidden; */
 }
 
+.logo {
+  position: absolute;
+  height: 90%;
+  margin: 5px;
+}
+
 nav {
   display: flex;
-
+  padding: 35px 0;
   justify-content: center;
   gap: 0.2em;
 }
@@ -58,7 +61,6 @@ nav a {
 nav a:hover {
   background-color: #2a633e;
 }
-
 
 main {
   article {
