@@ -35,17 +35,18 @@ body {
   top: 0;
   z-index: 1000;
   box-shadow: var(--shadow-light);
+  display: flex;
 }
 
 .nav-logo {
-  position: absolute;
-  height: 80%;
+  height: 100px;
   margin: 10px;
+  justify-content: flex-end;
 }
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 35px 0;
   /* Zone morte entre les boutons */
   gap: 0.2em;
