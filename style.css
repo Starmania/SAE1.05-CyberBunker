@@ -140,6 +140,7 @@ main a:visited {
 
 .site-footer > * {
   margin: auto 0;
+  padding: 20px;
 }
 
 .footer-logo {
