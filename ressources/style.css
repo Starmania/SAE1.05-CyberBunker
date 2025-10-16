@@ -22,7 +22,7 @@ img {
 }
 
 body {
-  background: url("./Image/Pc-fond.jpg") no-repeat 70% center / cover;
+  background: url("img/Pc-fond.jpg") no-repeat 70% center / cover;
   backdrop-filter: blur(5px);
   color: var(--text-color);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
