@@ -47,6 +47,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 35px 0;
+  /* Zone morte entre les boutons */
   gap: 0.2em;
 }
 
@@ -55,6 +56,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: x-large;
+  /* Gros boutons */
   padding: 0.5em 1em;
 }
 
@@ -68,8 +70,12 @@ body {
   flex-direction: column;
   background-color: var(--navbar-bg);
   box-shadow: var(--shadow-light);
-  border-radius: 0.5em;
-  margin-top: 0.5em;
+  /* margin-top: 0.5em; */
+}
+
+.submenu a {
+  padding: 0.5em 1em;
+  white-space: nowrap;
 }
 
 .nav-item:hover > .submenu {
@@ -119,13 +125,14 @@ main a:visited {
 .article-gallery {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .article-gallery img {
   max-width: 20%;
   border-radius: 20px;
   box-shadow: var(--shadow-light);
-  margin: 10px;
+  margin: 10px 0;
 }
 
 /* =========================
