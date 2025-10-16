@@ -1,5 +1,5 @@
 /* =========================
-   1. Variables & Reset
+   Variables & Reset
 ========================= */
 :root {
   --navbar-bg: #0d2e11;
@@ -21,9 +21,6 @@ img {
   height: 100%;
 }
 
-/* =========================
-   2. Éléments généraux
-========================= */
 body {
   background: url("./Image/Pc-fond.jpg") no-repeat 70% center / cover;
   backdrop-filter: blur(5px);
@@ -80,7 +77,7 @@ body {
 }
 
 /* =========================
-   4. Main & Articles
+   Main & Articles
 ========================= */
 main article {
   width: 66.66%;
@@ -100,17 +97,23 @@ main a:visited {
 }
 
 /* =========================
-   5. Images & Layout
+   Images & Layout
 ========================= */
-.article-layout--right {
+.article-layout--right,
+.article-layout--left {
   display: flex;
 }
 
-.article-layout--right img {
+.article-layout--right img,
+.article-layout--left img {
   max-width: 40%;
   border-radius: 0.5em;
   box-shadow: var(--shadow-light);
-  margin: auto auto auto 20px;
+  margin: auto 20px;
+}
+
+.article-layout--left {
+  flex-direction: row-reverse;
 }
 
 .article-gallery {
@@ -126,7 +129,7 @@ main a:visited {
 }
 
 /* =========================
-   6. Footer
+   Footer
 ========================= */
 .site-footer {
   background-color: var(--navbar-bg);
