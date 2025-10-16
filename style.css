@@ -80,7 +80,7 @@ body {
    Main & Articles
 ========================= */
 main article {
-  width: 66.66%;
+  width: 66.67%;
   margin: 5em auto;
   padding: 2em;
   background-color: var(--card-bg);
@@ -99,20 +99,18 @@ main a:visited {
 /* =========================
    Images & Layout
 ========================= */
-.article-layout--right,
-.article-layout--left {
+.image-large {
   display: flex;
 }
 
-.article-layout--right img,
-.article-layout--left img {
+.image-large img {
   max-width: 40%;
   border-radius: 0.5em;
   box-shadow: var(--shadow-light);
   margin: auto 20px;
 }
 
-.article-layout--left {
+.image-large.layout-left {
   flex-direction: row-reverse;
 }
 
