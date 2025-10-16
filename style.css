@@ -98,6 +98,17 @@ main {
   display: flex;
 }
 
+.image_gauche img {
+  max-width: 40%;
+  border-radius: 0.5em;
+  box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.1);
+  margin: auto 20px auto auto;
+}
+
+.image_gauche {
+  display: flex;
+}
+
 #article2 div {
   display: flex;
   justify-content: space-evenly;
