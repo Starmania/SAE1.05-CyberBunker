@@ -130,7 +130,7 @@ main a:visited {
 
 .article-gallery img {
   max-width: 20%;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: var(--shadow-light);
   margin: 10px 0;
 }
@@ -147,6 +147,7 @@ main a:visited {
 
 .site-footer > * {
   margin: auto 0;
+  padding: 20px;
 }
 
 .footer-logo {
