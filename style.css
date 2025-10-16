@@ -89,7 +89,9 @@ main article {
   text-align: justify;
   scroll-margin-top: 200px;
 }
-
+main h1 {
+  padding-bottom: 20px;
+}
 main a:link,
 main a:visited {
   color: #38488f;
