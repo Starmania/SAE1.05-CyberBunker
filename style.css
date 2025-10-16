@@ -100,6 +100,7 @@ main article {
 }
 main h1 {
   padding-bottom: 20px;
+  color: #ff914d;
 }
 main a:link,
 main a:visited {
