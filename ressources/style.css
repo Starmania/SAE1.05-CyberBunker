@@ -14,6 +14,7 @@
   --text-color: #f9f9f9;
   --link-color: #909ddf;
   --link-hover-bg: #2a633e;
+  --titre-color: #ff914d;
   --card-bg: #122915;
   --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1);
   --shadow-card: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
@@ -37,7 +38,6 @@ body {
     "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
 /* =========================
    Navbar
 ========================= */
@@ -53,6 +53,7 @@ header {
 }
 
 #titre-site {
+  color: var(--titre-color);
   font-family: "MuseoModerno";
   font-size: xxx-large;
   margin: auto 0;
@@ -144,6 +145,7 @@ main article {
 main h2 {
   margin-bottom: 20px;
   font-size: xx-large;
+  color: var(--titre-color);
 }
 main a:link,
 main a:visited {
@@ -190,6 +192,11 @@ main a:visited {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+
+footer h1 {
+  color: var(--titre-color);
+  margin-bottom: 10px;
 }
 
 .site-footer > * {
