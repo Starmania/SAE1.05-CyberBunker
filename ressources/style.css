@@ -61,7 +61,6 @@ body {
 .nav-logo {
   height: 100px;
   margin: 10px;
-  justify-content: flex-end;
 }
 
 .navbar {
@@ -69,7 +68,7 @@ body {
   justify-content: flex-start;
   padding: 35px 0;
   /* Zone morte entre les boutons */
-  gap: 0.2em;
+  gap: 3px;
 }
 
 .nav-item {
@@ -86,19 +85,34 @@ body {
   padding: 0.5em 1em;
 }
 
-.nav-item > a:hover {
+/* Sélectione un .nav-item qui a un de ses enfants en :hover */
+.nav-item:has(:hover) {
   background-color: var(--link-hover-bg);
 }
 
+.submenu-position {
+  /* Nécessaire pour positionner le sous-menu par rapport au parent */
+  position: relative;
+  width: 100%;
+}
+
 .submenu {
+  /* Par défaut, ne pas afficer le menu */
   display: none;
-  position: absolute;
+  /* Sinon, l'afficher sous forme de colonne */
   flex-direction: column;
-  /* margin-top: 0.5em; */
+  position: absolute;
+  /* Placer un élément absolu au bas d'un élément relatif */
+  top: 100%;
+  left: 0;
+  /* On veut que les > a aient la taille du parent, donc il faut la garder */
+  width: 100%;
+  /* Espacement entre les éléments */
+  gap: 3px;
+  padding-top: 3px;
 }
 
 .submenu a {
-  margin: 0.2em 0;
   padding: 0.5em 1em;
   white-space: nowrap;
   text-decoration: none;
@@ -108,7 +122,7 @@ body {
   color: var(--link-color);
 }
 
-.nav-item:hover > .submenu {
+.nav-item:hover .submenu {
   display: flex;
 }
 
