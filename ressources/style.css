@@ -47,7 +47,7 @@ body {
   text-align: center;
 }
 
-.site-header {
+header {
   background-color: var(--navbar-bg);
   position: sticky;
   top: 0;
@@ -63,7 +63,7 @@ body {
   margin: 10px;
 }
 
-.navbar {
+nav {
   display: flex;
   justify-content: flex-start;
   padding: 35px 0;
@@ -71,7 +71,7 @@ body {
   gap: 3px;
 }
 
-.nav-item {
+nav-item {
   display: flex;
   flex-direction: column;
 }
