@@ -41,13 +41,6 @@ body {
 /* =========================
    Navbar
 ========================= */
-#titre-site {
-  font-family: "MuseoModerno";
-  font-size: xxx-large;
-  margin: auto 0;
-  text-align: center;
-}
-
 header {
   background-color: var(--navbar-bg);
   position: sticky;
@@ -57,6 +50,13 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px 30px;
+}
+
+#titre-site {
+  font-family: "MuseoModerno";
+  font-size: xxx-large;
+  margin: auto 0;
+  text-align: center;
 }
 
 .nav-logo {
