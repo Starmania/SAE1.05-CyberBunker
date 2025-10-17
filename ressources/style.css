@@ -50,6 +50,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px 30px;
+  background-image: url("./img/concrete-wall-2.png");
 }
 
 #titre-site {
@@ -143,6 +144,7 @@ main article {
   margin: 5em auto;
   padding: 2em;
   background-color: var(--card-bg);
+  background-image: url("./img/concrete-wall-2.png");
   border-radius: 0.5em;
   box-shadow: var(--shadow-card);
   text-align: justify;
@@ -218,7 +220,7 @@ footer h2 {
     hue-rotate(193deg) brightness(94%) contrast(87%);
 }
 
-.footer-logo {  
+.footer-logo {
   height: 125px;
   margin: auto 0;
 }
