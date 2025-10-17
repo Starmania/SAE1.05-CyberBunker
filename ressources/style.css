@@ -200,6 +200,13 @@ footer h1 {
 
 .site-footer > * {
   padding: 20px;
+  text-align: center;
+}
+
+.footer-petit-logo {
+  width: 75px;
+  filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(181%)
+    hue-rotate(193deg) brightness(94%) contrast(87%);
 }
 
 .footer-logo {
