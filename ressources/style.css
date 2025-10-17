@@ -194,9 +194,10 @@ main a:visited {
   padding: 20px;
 }
 
-footer h1 {
+footer h2 {
   color: var(--titre-color);
   margin-bottom: 10px;
+  font-size: xx-large;
 }
 
 .site-footer > div {
