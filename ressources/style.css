@@ -182,7 +182,6 @@ main a:visited {
 .article-gallery {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
 .article-gallery img {
