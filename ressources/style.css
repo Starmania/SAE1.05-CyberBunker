@@ -123,6 +123,7 @@ nav {
   border-radius: 0.5em;
   box-shadow: var(--shadow-light);
   color: var(--link-color);
+  text-align: center;
 }
 
 .nav-item:hover .submenu > div {
