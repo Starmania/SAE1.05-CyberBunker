@@ -7,6 +7,7 @@
   --link-color: #909ddf;
   --link-hover-bg: #2a633e;
   --card-bg: #122915;
+  --titre-color: #ff914d;
   --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1);
   --shadow-card: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
 }
@@ -41,6 +42,7 @@ body {
    Navbar
 ========================= */
 .titre-site {
+  color: var(--titre-color);
   font-family: "MuseoModerno";
   font-size: xxx-large;
   margin: auto 0;
@@ -142,7 +144,7 @@ main article {
 main h2 {
   margin-bottom: 20px;
   font-size: xx-large;
-  color: #ff914d;
+  color: var(--titre-color);
 }
 main a:link,
 main a:visited {
