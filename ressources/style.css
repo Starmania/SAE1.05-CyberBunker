@@ -76,7 +76,7 @@ nav {
 .nav-item {
   display: flex;
   flex-direction: column;
-  border-radius: 0.5em;
+  border-radius: 0.3em;
 }
 
 .nav-item > a {
@@ -120,9 +120,14 @@ nav {
   white-space: nowrap;
   text-decoration: none;
   background-color: #2a633e;
-  border-radius: 0.5em;
+  border-radius: 0.3em;
   box-shadow: var(--shadow-light);
   color: var(--link-color);
+}
+
+.submenu a:hover {
+  background-color: var(--navbar-bg);
+  border: 1px solid var(--link-color);
 }
 
 .nav-item:hover .submenu > div {
