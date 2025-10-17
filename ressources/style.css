@@ -41,7 +41,7 @@ body {
 /* =========================
    Navbar
 ========================= */
-.titre-site {
+#titre-site {
   font-family: "MuseoModerno";
   font-size: xxx-large;
   margin: auto 0;
