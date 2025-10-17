@@ -75,6 +75,7 @@ nav {
 .nav-item {
   display: flex;
   flex-direction: column;
+  border-radius: 0.5em;
 }
 
 .nav-item > a {
