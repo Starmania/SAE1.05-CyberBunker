@@ -1,4 +1,12 @@
 /* =========================
+   Polices
+========================= */
+@font-face {
+  font-family: "MuseoModerno";
+  src: url("./MuseoModerno-VariableFont_wght.ttf") format("truetype");
+}
+
+/* =========================
    Variables & Reset
 ========================= */
 :root {
@@ -7,7 +15,6 @@
   --link-color: #909ddf;
   --link-hover-bg: #2a633e;
   --card-bg: #122915;
-  --titre-color: #ff914d;
   --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1);
   --shadow-card: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
 }
@@ -30,26 +37,18 @@ body {
     "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* =========================
-   Polices
-========================= */
-@font-face {
-  font-family: "MuseoModerno";
-  src: url("./MuseoModerno-VariableFont_wght.ttf") format("truetype");
-}
 
 /* =========================
    Navbar
 ========================= */
 .titre-site {
-  color: var(--titre-color);
   font-family: "MuseoModerno";
   font-size: xxx-large;
   margin: auto 0;
   text-align: center;
 }
 
-.site-header {
+header {
   background-color: var(--navbar-bg);
   position: sticky;
   top: 0;
@@ -65,7 +64,7 @@ body {
   margin: 10px;
 }
 
-.navbar {
+nav {
   display: flex;
   justify-content: flex-start;
   padding: 35px 0;
@@ -92,13 +91,13 @@ body {
   background-color: var(--link-hover-bg);
 }
 
-.submenu-position {
+.submenu {
   /* Nécessaire pour positionner le sous-menu par rapport au parent */
   position: relative;
   width: 100%;
 }
 
-.submenu {
+.submenu > div {
   /* Par défaut, ne pas afficer le menu */
   display: none;
   /* Sinon, l'afficher sous forme de colonne */
@@ -124,7 +123,7 @@ body {
   color: var(--link-color);
 }
 
-.nav-item:hover .submenu {
+.nav-item:hover .submenu > div {
   display: flex;
 }
 
@@ -144,7 +143,6 @@ main article {
 main h2 {
   margin-bottom: 20px;
   font-size: xx-large;
-  color: var(--titre-color);
 }
 main a:link,
 main a:visited {
@@ -193,12 +191,8 @@ main a:visited {
   padding: 20px;
 }
 
-footer h1 {
-  color: var(--titre-color);
-  margin-bottom: 10px;
-}
-
 .site-footer > * {
+  margin: auto 0;
   padding: 20px;
   text-align: center;
 }
@@ -210,6 +204,5 @@ footer h1 {
 }
 
 .footer-logo {
-  margin: auto 0;
   height: 150px;
 }
