@@ -166,7 +166,7 @@ main a:visited {
 ========================= */
 .image-large {
   display: flex;
-  gap: 20px
+  gap: 20px;
 }
 
 .image-large img {
@@ -211,12 +211,12 @@ footer h2 {
 }
 
 .site-footer > div {
-  margin: auto 0;
   padding: 20px;
   text-align: center;
 }
 
 .footer-petit-logo {
+  height: auto;
   width: 75px;
   filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(181%)
     hue-rotate(193deg) brightness(94%) contrast(87%);
