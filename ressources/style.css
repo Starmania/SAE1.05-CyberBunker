@@ -1,4 +1,12 @@
 /* =========================
+   Polices
+========================= */
+@font-face {
+  font-family: "MuseoModerno";
+  src: url("./MuseoModerno-VariableFont_wght.ttf") format("truetype");
+}
+
+/* =========================
    Variables & Reset
 ========================= */
 :root {
@@ -29,13 +37,6 @@ body {
     "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* =========================
-   Polices
-========================= */
-@font-face {
-  font-family: "MuseoModerno";
-  src: url("./MuseoModerno-VariableFont_wght.ttf") format("truetype");
-}
 
 /* =========================
    Navbar
