@@ -29,6 +29,24 @@ body {
     "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* =========================
+   Polices
+========================= */
+@font-face {
+  font-family: "MuseoModerno";
+  src: url("./MuseoModerno-VariableFont_wght.ttf") format("truetype");
+}
+
+/* =========================
+   Navbar
+========================= */
+.titre-site {
+  font-family: "MuseoModerno";
+  font-size: xxx-large;
+  margin: auto 0;
+  text-align: center;
+}
+
 .site-header {
   background-color: var(--navbar-bg);
   position: sticky;
@@ -107,8 +125,9 @@ main article {
   text-align: justify;
   scroll-margin-top: 200px;
 }
-main h1 {
-  padding-bottom: 20px;
+main h2 {
+  margin-bottom: 20px;
+  font-size: xx-large;
 }
 main a:link,
 main a:visited {
