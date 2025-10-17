@@ -197,6 +197,7 @@ main a:visited {
 ========================= */
 .site-footer {
   background-color: var(--navbar-bg);
+  background-image: url("./img/concrete-wall-2.png");
   display: flex;
   justify-content: space-between;
   padding: 20px;
