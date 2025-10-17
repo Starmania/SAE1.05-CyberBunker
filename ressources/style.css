@@ -46,7 +46,7 @@ header {
   background-color: var(--navbar-bg);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1;
   box-shadow: var(--shadow-light);
   display: flex;
   justify-content: space-between;
