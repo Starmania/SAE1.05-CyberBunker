@@ -179,7 +179,7 @@ main a:visited {
   flex-direction: row-reverse;
 }
 
-.article-gallery {
+.article-gallery div {
   display: flex;
   justify-content: space-evenly;
 }
