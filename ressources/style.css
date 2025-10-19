@@ -194,7 +194,7 @@ main a:visited {
 /* =========================
    Footer
 ========================= */
-.site-footer {
+footer {
   background-color: var(--navbar-bg);
   background-image: url("./img/concrete-wall-2.png");
   display: flex;
@@ -208,7 +208,7 @@ footer h2 {
   font-size: xx-large;
 }
 
-.site-footer > div {
+footer > div {
   padding: 20px;
   text-align: center;
 }
