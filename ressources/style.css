@@ -203,6 +203,7 @@ main a:visited {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  color: var(--link-color);
 }
 
 footer h2 {
